@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Form</title>
+    <link rel="stylesheet" href="Bio.css">
+</head>
+<body>
+    <div class="container">
+        <form action="">
+            <h3>Please Enter Your Valuable Information Correctly</h3>
+            <p>Name  : <input type="text" name="name" required placeholder="Type Your Name" id=""></p>
+            <p>
+                Email : <input type="email" name="email" placeholder="Type Your Mail" id="">
+                <input type="submit" value="check">
+            </p>
+            <p>Age : <input type="number" name="num" placeholder="Your Current Age" id=""></p>
+            <p>
+                Country : 
+                <select name="country" id="country" required>
+                    <option value="">--Choose Your Country--</option>
+                    <option value="afganistan">afganistan</option>
+                    <option value="africa">Africa</option>
+                    <option value="italy">italy</option>
+                    <option value="india">India</option>
+                    <option value="Aus">Australia</option>
+                </select>
+            </p>
+            <p>Password : <input type="password" name="pass" id=""></p>
+            <p>
+                <label for="resume">Resume:</label>
+                <input type="file" id="resume" multiple>
+            </p>
+            <p>
+                Hobbies 
+                <input type="checkbox" name="hobby" id="cricket">cricket
+                <input type="checkbox" name="hobby" id="football">Football
+                <input type="checkbox" name="hobby" id="chess">Chess
+            </p>
+            <p>
+                Gender : 
+                <input type="radio" name="gender" id="Male">Male
+                <input type="radio" name="gender" id="Female">Female
+                <input type="radio" name="gender" id="Others">Others
+            </p>
+            <p>
+                City : 
+                <select name="" id="">
+                    <option value="" selected disabled>Select a city</option>
+                    <option value="">Bbsr</option>
+                    <option value="">Cuttack</option>
+                    <option value="">Sambalpur</option>
+                    <option value="">Berhampur</option>
+                </select>
+            </p>
+            <p>
+                Address : <textarea name="address" id="address" cols="30" rows="5" placeholder="Your Current Location"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+    </div>
+</body>
+</html>
